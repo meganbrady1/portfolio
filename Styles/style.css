@@ -47,7 +47,6 @@ a:active {
 img{
   width: 50%;
   height: 50%
-
 }
 
 .test{
@@ -67,4 +66,8 @@ img{
   justify-content: center;
   flex-direction:column;
   justify-content: space-around;
+}
+
+#sketch{
+
 }
