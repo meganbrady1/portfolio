@@ -10,7 +10,11 @@ h1{
 
 body {
   background-color: #E9E9E9;
+}
 
+p{
+  position:absolute;
+  bottom: 735px;
 }
 
 a:link {
@@ -54,6 +58,7 @@ img{
  padding-top: 30px;
 }
 
-#projects {
-margin-bottom: 35px;
+#contact{
+  float:left;
+  margin-left: 80px;
 }
