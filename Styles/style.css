@@ -18,8 +18,8 @@ body {
 }
 
 p{
-  padding-left: 20px;
-  margin-right: 28%;
+
+  font-size: 1.5rem;
 }
 
 a:link {
@@ -50,7 +50,7 @@ a:active {
 
 img{
   width: 50%;
-  height: 50%
+  height: 50%;
 }
 
 .about{
@@ -59,10 +59,23 @@ img{
   justify-content: center;
 }
 
+.home{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
 #profile {
- width:50%;
- height:50%;
- padding-left: 28%;
+ width:30%;
+ height:30%;
+ padding-left: 10%;
+}
+
+#bio{
+  padding-left: 25px;
+  margin-right: 10%;
 }
 
 #contact{
@@ -73,6 +86,16 @@ img{
 }
 
 #Kenai{
-  width: 15%;
-  height:15%;
+  width: 75%;
+  height:75%;
+}
+
+#stainedGlass{
+  height: 25%;
+  width: 25%;
+}
+
+#inprogress{
+  height: 18.8%;
+  width: 18.8%;
 }
