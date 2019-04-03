@@ -4,6 +4,7 @@ h1{
   display:flex;
   color: black;
   font-family: 'Titillium Web', sans-serif;
+  letter-spacing: 3px;
   justify-content: center;
   justify-content: space-around;
   padding-top: 40px;
@@ -12,13 +13,9 @@ h1{
 
 body {
   background-color: #E9E9E9;
-  box-sizing: 0;
-  border-box: 0;
-  margin: 0;
 }
 
 p{
-
   font-size: 1.5rem;
 }
 
@@ -53,18 +50,23 @@ img{
   height: 50%;
 }
 
+.index{
+  display: inline;
+}
+
 .about{
-  display: flex;
+  display: block;
   flex-direction: row;
   justify-content: center;
 }
 
-.home{
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-left: 25%;
-  margin-right: 25%;
+.digital{
+  margin-bottom: 50px;
+}
+
+#indexProf{
+  height: 50%;
+  width: 50%;
 }
 
 #profile {
@@ -85,11 +87,6 @@ img{
   justify-content: space-around;
 }
 
-#Kenai{
-  width: 75%;
-  height:75%;
-}
-
 #stainedGlass{
   height: 25%;
   width: 25%;
@@ -102,4 +99,8 @@ img{
 
 #caption{
   padding-left: 20px;
+}
+
+#welcome{
+  margin: 20px 300px 20px 300px;
 }
