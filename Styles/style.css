@@ -13,6 +13,7 @@ h1{
 
 body {
   background-color: #E9E9E9;
+    font-family: 'Titillium Web', sans-serif;
   box-sizing: 0;
   border-box: 0;
   margin: 0;
@@ -105,5 +106,20 @@ img{
 }
 
 #welcome{
-  margin: 20px 300px 20px 300px; 
+  margin: 20px 300px 20px 300px;
+}
+
+#indexHeader{
+  padding-bottom: 0px;
+}
+
+#myName{
+  padding-right: 200px;
+  margin:auto auto auto 0;
+}
+
+#nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
